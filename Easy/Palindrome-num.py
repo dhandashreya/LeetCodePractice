@@ -36,3 +36,9 @@ class Solution:
             x //= 10
 
         return x == rev_num or x == rev_num // 10
+
+
+# solution 3
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
